@@ -17,7 +17,6 @@ latest_posts:
   enabled: false
 ---
 
-<h1 class="lab-title">Fitzpatrick lab</h1>
 <p class="lab-subtitle">
   <a href="https://science.ucalgary.ca/biological-sciences" target="_blank">
     University of Calgary – Department of Biological Sciences
