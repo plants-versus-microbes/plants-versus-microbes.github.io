@@ -34,20 +34,10 @@
   text-decoration: underline;
 }
 
-.navbar-brand {
-  position: static;
-  font-weight: 500;
-  font-size: 1.2rem;
-  color: #e0e0e0 !important;
-  font-weight: 500;
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
 
-.navbar {
-  align-items: center;
-}
+/* =========================
+   Navbar (clean + stable)
+   ========================= */
 
 .navbar .container {
   display: flex;
@@ -55,6 +45,17 @@
   justify-content: space-between;
 }
 
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: auto;
+  color: inherit;
+}
+
 .navbar-brand:hover {
-  color: #ffffff !important;
+  color: inherit;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
 }
