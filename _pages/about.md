@@ -16,6 +16,13 @@ latest_posts:
   enabled: false
 ---
 
+<h1 class="lab-title">Fitzpatrick Lab</h1>
+<p class="lab-subtitle">
+  <a href="https://science.ucalgary.ca/biological-sciences" target="_blank">
+    University of Calgary – Department of Biological Sciences
+  </a>
+</p>
+
 We study how plants respond to environmental stress and how these responses shape interactions with microbial communities. Our work integrates plant physiology, genetics, and pathology to understand crop resilience.
 
 A central focus of the lab is how drought alters iron uptake and plant–microbe interactions, and how these processes influence crop performance, disease, and nutritional quality.
