@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: ""
+title: blank
 subtitle: ""
 profile:
   align: center
