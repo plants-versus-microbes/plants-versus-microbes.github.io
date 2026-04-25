@@ -38,6 +38,8 @@
   position: static;
   font-weight: 500;
   font-size: 1.2rem;
+  color: #e0e0e0 !important;
+  font-weight: 500;
 }
 
 .navbar {
@@ -48,4 +50,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar-brand:hover {
+  color: #ffffff !important;
 }
