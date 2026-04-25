@@ -22,11 +22,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
   {% if page.permalink == "/" %}
-    Fitzpatrick Lab | Plant physiology and plant-microbe interactions
+    {{ site.long_title }}
   {% elsif page.title %}
-    {{ page.title }} | Fitzpatrick Lab
+    {{ page.title }} | {{ site.title }}
   {% else %}
-    Fitzpatrick Lab
+    {{ site.title }}
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
