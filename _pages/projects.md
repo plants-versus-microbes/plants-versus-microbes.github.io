@@ -2,10 +2,10 @@
 layout: page
 title: research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: ongoing work in the lab
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [lants microbes environment, plant pathology]
 horizontal: false
 ---
 We study how plants respond to environmental stress and how these responses shape interactions with microbial communities.
