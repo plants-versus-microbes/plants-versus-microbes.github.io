@@ -8,20 +8,7 @@ nav_order: 2
 display_categories: [lants microbes environment, plant pathology]
 horizontal: false
 ---
-We study how plants respond to environmental stress and how these responses shape interactions with microbial communities.
-
----
-
-## Research themes
-
-### [Drought, iron, and plant resilience](/research/drought-iron/)
-Understanding how drought suppresses iron uptake and impacts crop nutrition.
-
-### [Plant–microbe interactions under stress](/research/plant-microbe/)
-How environmental stress reshapes root microbiomes and plant responses.
-
-### [Pathogens and infection biology](/research/pathogens/)
-Mechanisms of infection and resistance across plant–pathogen systems.
+Plants exist at the intersection of environmental stress, microbial communities, and pathogen pressure. Our research dissects how these forces interact—how drought and nutrient availability reshape plant–microbe interactions, and how pathogens exploit or are constrained by host physiology. By bridging plant physiology, microbiome biology, and plant pathology, we seek to uncover general principles governing plant health and disease.
 
 <!-- pages/projects.md -->
 <div class="projects">
