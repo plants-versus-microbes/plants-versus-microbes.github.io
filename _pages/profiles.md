@@ -1,28 +1,49 @@
 ---
-layout: profiles
-permalink: /people/
+layout: page
 title: people
-description: members of the lab or group
+permalink: /people/
 nav: true
 nav_order: 1
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+## Principal Investigator
+
+<div class="people-entry">
+  <img src="/assets/img/connor-fitzpatrick.jpg" class="people-thumb">
+  <div>
+    <strong><a href="/people/connor-fitzpatrick/">Connor Fitzpatrick</a></strong><br>
+    Associate Professor, University of Calgary
+  </div>
+</div>
+
+---
+
+## Current Members
+
+<div class="people-entry">
+  <img src="/assets/img/student1.jpg" class="people-thumb">
+  <div>
+    <strong><a href="/people/student1/">Jane Doe</a></strong><br>
+    PhD Student
+  </div>
+</div>
+
+<div class="people-entry">
+  <img src="/assets/img/student2.jpg" class="people-thumb">
+  <div>
+    <strong><a href="/people/student2/">John Smith</a></strong><br>
+    MSc Student
+  </div>
+</div>
+
+---
+
+## Alumni
+
+<div class="people-entry">
+  <img src="/assets/img/alumni1.jpg" class="people-thumb">
+  <div>
+    <strong><a href="/people/alumni1/">Alumni Name</a></strong><br>
+    Former MSc Student
+  </div>
+</div>
