@@ -466,6 +466,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ALCB/";
+            },},{id: "projects-bacteria-mediated-rescue-of-plant-iron-uptake",
+          title: 'Bacteria-mediated rescue of plant iron uptake',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chl_rescue/";
             },},{id: "projects-drought-and-plant-iron-nutrition",
           title: 'Drought and plant iron nutrition',
           description: "",
