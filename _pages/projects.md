@@ -5,7 +5,7 @@ permalink: /research/
 description: ongoing work in the lab
 nav: true
 nav_order: 2
-display_categories: [lants microbes environment, plant pathology]
+display_categories: [plants microbes environment, plant pathology]
 horizontal: false
 ---
 Plants exist at the intersection of environmental stress, microbial communities, and pathogen pressure. Our research dissects how these forces interact—how drought and nutrient availability reshape plant–microbe interactions, and how pathogens exploit or are constrained by host physiology. By bridging plant physiology, microbiome biology, and plant pathology, we seek to uncover general principles governing plant health and disease.
