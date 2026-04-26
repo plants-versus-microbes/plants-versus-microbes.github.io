@@ -466,6 +466,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ALCB/";
+            },},{id: "projects-drought-and-plant-iron-nutrition",
+          title: 'Drought and plant iron nutrition',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/drought-iron/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
