@@ -466,6 +466,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ALCB/";
+            },},{id: "projects-white-pine-blister-rust",
+          title: 'White pine blister rust',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/WPBR/";
             },},{id: "projects-bacteria-mediated-rescue-of-plant-iron-uptake",
           title: 'Bacteria-mediated rescue of plant iron uptake',
           description: "",
