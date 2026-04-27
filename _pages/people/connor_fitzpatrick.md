@@ -35,6 +35,3 @@ nav: false
     <p>
       Email: <a href="mailto:connor.fitzpatrick@ucalgary.ca">connor[dot]fitzpatrick[at]ucalgary.ca</a>
     </p>
-  </div>
-
-</div>
