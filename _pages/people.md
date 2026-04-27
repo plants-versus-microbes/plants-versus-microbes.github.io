@@ -11,7 +11,7 @@ nav_order: 1
 <div class="people-entry">
   <img src="/assets/img/people/connor_fitzpatrick.jpg" class="people-thumb">
   <div>
-    <strong><a href="/people/connor_fitzpatrick/">Connor Fitzpatrick</a></strong><br>
+    <strong><a href="/_pages/people/connor_fitzpatrick.md/">Connor Fitzpatrick</a></strong><br>
     Associate Professor, University of Calgary
   </div>
 </div>
