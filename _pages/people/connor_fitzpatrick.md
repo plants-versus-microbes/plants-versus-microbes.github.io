@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Connor Fitzpatrick
-permalink: /people/connor_fitzpatrick/
+permalink: /people/connor-fitzpatrick/
 nav: false
 ---
 
