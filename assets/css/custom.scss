@@ -68,11 +68,12 @@
 }
 
 .people-thumb {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover !important;
   border-radius: 6px;
   flex-shrink: 0;
+  display: block;
 }
 
 .people-entry:hover {
