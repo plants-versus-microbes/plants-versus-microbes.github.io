@@ -27,7 +27,7 @@ nav: false
 
     <h2>Contact</h2>
     <p>
-      Email: <a href="mailto:your.email@ucalgary.ca">your.email@ucalgary.ca</a>
+      Email: <a href="mailto:connor.fitzpatrick@ucalgary.ca">connor[dot]fitzpatrick[at]ucalgary.ca</a>
     </p>
   </div>
 
