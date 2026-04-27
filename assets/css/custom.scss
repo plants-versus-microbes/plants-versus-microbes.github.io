@@ -78,3 +78,42 @@
 .people-entry:hover {
   opacity: 0.9;
 }
+
+.person-profile {
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.person-photo {
+  width: 230px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.person-info {
+  max-width: 650px;
+}
+
+.person-info h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.person-role {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .person-profile {
+    flex-direction: column;
+  }
+
+  .person-photo {
+    width: 200px;
+  }
+}
