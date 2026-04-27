@@ -7,7 +7,7 @@ nav: false
 
 <div class="person-profile">
 
-  <img src="/assets/img/connor-fitzpatrick.jpg" class="person-photo">
+  <img src="/assets/img/connor_fitzpatrick.jpg" class="person-photo">
 
   <div class="person-info">
     <h1>Connor Fitzpatrick</h1>
