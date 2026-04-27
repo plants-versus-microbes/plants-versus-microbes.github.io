@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Connor Fitzpatrick
-permalink: /people/connor-fitzpatrick/
+permalink: /_lab_members/connor_fitzpatrick/
 nav: false
 ---
 
 <div class="person-profile">
 
-  <img src="/assets/img/connor_fitzpatrick.jpg" class="person-photo">
+  <img src="/assets/img/people/connor_fitzpatrick.jpg" class="person-photo">
 
   <div class="person-info">
     <h1>Connor Fitzpatrick</h1>
