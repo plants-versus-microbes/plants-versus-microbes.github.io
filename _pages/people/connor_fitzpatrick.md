@@ -11,7 +11,7 @@ nav: false
 
   <div class="person-info">
     <h1>Connor Fitzpatrick</h1>
-    <p class="person-role">Associate Professor, University of Calgary</p>
+    <p class="person-role">Assistant Professor, University of Calgary</p>
 
     <p>
       Connor completed his undergraduate degree in Plant Science at the University of British Columbia. He then spent several years working as a researcher on a diverse set of projects, including a long-term evolution study in the Caribbean and research on conifer adaptation in the Pacific Northwest, moving between tropical field sites and temperate forests along the way.
