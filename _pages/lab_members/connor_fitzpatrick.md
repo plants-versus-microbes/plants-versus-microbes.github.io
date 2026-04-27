@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Connor Fitzpatrick
-permalink: /_lab_members/connor_fitzpatrick/
+permalink: /lab_members/connor_fitzpatrick/
 nav: false
 ---
 
