@@ -9,7 +9,7 @@ nav_order: 1
 ## Principal Investigator
 
 <div class="people-entry">
-  <img src="/assets/img/people/connor_fitzpatrick.jpg" class="people-thumb">
+  <img src="/assets/img/people/connor_fitzpatrick_thumb.jpg" class="people-thumb">
   <div>
     <strong><a href="/people/connor-fitzpatrick/">Connor Fitzpatrick</a></strong><br>
     Associate Professor, University of Calgary
