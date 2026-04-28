@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Connor Fitzpatrick
+title: ""
 permalink: /people/connor-fitzpatrick/
 nav: false
 ---
