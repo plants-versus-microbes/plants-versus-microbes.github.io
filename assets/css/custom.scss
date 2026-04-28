@@ -89,24 +89,25 @@
    Individual profile pages
    ========================= */
 
-.person-profile {
-  display: flex;
-  gap: 35px;
-  align-items: flex-start;
-  margin-top: 30px;
+.person-profile-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 35px;
 }
 
 .person-photo {
-  width: 230px !important;
-  max-width: 230px !important;
-  height: auto !important;
-  object-fit: cover;
-  border-radius: 8px;
+  width: 260px !important;
+  max-width: 260px !important;
+  height: 260px !important;
+  object-fit: cover !important;
+  border-radius: 10px;
   display: block;
 }
 
 .person-info {
-  max-width: 650px;
+  max-width: 700px;
 }
 
 .person-info h1 {
@@ -120,17 +121,24 @@
   margin-bottom: 25px;
 }
 
+.person-info p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
 
 /* =========================
    Mobile responsiveness
    ========================= */
 
 @media (max-width: 768px) {
-  .person-profile {
-    flex-direction: column;
+  .person-profile-card {
+    grid-template-columns: 1fr;
   }
 
   .person-photo {
-    width: 200px;
+    width: 220px !important;
+    max-width: 220px !important;
+    height: 220px !important;
   }
 }
