@@ -99,11 +99,10 @@
 .person-photo {
   width: 230px !important;
   max-width: 230px !important;
-  height: auto;
+  height: auto !important;
   object-fit: cover;
   border-radius: 8px;
   display: block;
-  flex-shrink: 0;
 }
 
 .person-info {
