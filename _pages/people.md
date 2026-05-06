@@ -20,7 +20,7 @@ nav_order: 1
 
 ---
 
-## Current Members
+## Post-docs
 
 <div class="people-entry">
   <img src="/assets/img/student1.jpg" class="people-thumb">
@@ -29,6 +29,10 @@ nav_order: 1
     PhD Student
   </div>
 </div>
+
+---
+
+## Graduate Students
 
 <div class="people-entry">
   <img src="/assets/img/student2.jpg" class="people-thumb">
@@ -40,7 +44,7 @@ nav_order: 1
 
 ---
 
-## Alumni
+## Undergraduate Students
 
 <div class="people-entry">
   <img src="/assets/img/alumni1.jpg" class="people-thumb">
@@ -49,3 +53,17 @@ nav_order: 1
     Former MSc Student
   </div>
 </div>
+
+---
+
+## Former Lab Members
+
+<div class="people-entry">
+  <img src="/assets/img/alumni1.jpg" class="people-thumb">
+  <div>
+    <strong><a href="/people/alumni1/">Alumni Name</a></strong><br>
+    Former MSc Student
+  </div>
+</div>
+
+---
