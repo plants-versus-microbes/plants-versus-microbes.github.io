@@ -27,13 +27,14 @@ nav: false
     <h2>Research interests</h2>
     <ul>
       <li>Drought and iron homeostasis</li>
-      <li>Plant–microbe interactions</li>
+      <li>Plant-microbe interactions</li>
       <li>Plant pathology</li>
       <li>Crop resilience</li>
       <li>Global food systems</li>
     </ul>
 
     <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:connor.fitzpatrick@ucalgary.ca">connor[dot]fitzpatrick[at]ucalgary.ca</a>
-    </p>
+    <p>Email: <a href="mailto:connor.fitzpatrick@ucalgary.ca">connor[dot]fitzpatrick[at]ucalgary.ca</a></p>
+  </div>
+
+</div>
