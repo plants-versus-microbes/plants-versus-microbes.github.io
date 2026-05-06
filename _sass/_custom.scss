@@ -1,1 +1,144 @@
+.lab-title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+}
 
+.lab-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.page-content {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.profile img {
+  max-width: 220px;
+  margin: 20px auto 30px auto;
+  display: block;
+}
+
+.lab-subtitle a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lab-subtitle a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   Navbar (clean + stable)
+   ========================= */
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: auto;
+  color: inherit;
+}
+
+.navbar-brand:hover {
+  color: inherit;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+/* =========================
+   People directory (thumbnails)
+   ========================= */
+
+.people-entry {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.people-entry img {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover !important;
+  border-radius: 6px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.people-entry:hover {
+  opacity: 0.9;
+}
+
+
+/* =========================
+   Individual profile pages
+   ========================= */
+
+.person-profile-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 35px;
+}
+
+.person-photo {
+  width: 260px !important;
+  max-width: 260px !important;
+  height: 260px !important;
+  object-fit: cover !important;
+  border-radius: 10px;
+  display: block;
+}
+
+.person-info {
+  max-width: 700px;
+}
+
+.person-info h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.person-role {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.person-info p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+
+/* =========================
+   Mobile responsiveness
+   ========================= */
+
+@media (max-width: 768px) {
+  .person-profile-card {
+    grid-template-columns: 1fr;
+  }
+
+  .person-photo {
+    width: 220px !important;
+    max-width: 220px !important;
+    height: 220px !important;
+  }
+}
