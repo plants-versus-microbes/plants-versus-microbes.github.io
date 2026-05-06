@@ -20,9 +20,6 @@ nav: false
     <p>He later joined <a href="https://evoecolab.wordpress.com/">Marc Johnson’s lab</a> at the University of Toronto, where he explored the evolutionary ecology of plant–soil feedbacks. He then moved to <a href="https://labs.bio.unc.edu/dangl/">Jeff Dangl’s lab</a> at the University of North Carolina, where he studied how plant microbiomes respond to environmental stress.</p>
 
     <p>In 2026, Connor founded the Plants versus Microbes Lab at the University of Calgary. The lab brings together plant physiology, microbiome biology, and plant pathology to understand how plants interact with their environments and how those interactions shape plant health, crop performance, and disease.</p>
-  </div>
-
-</div>
 
     <h2>Research interests</h2>
     <ul>
@@ -35,6 +32,7 @@ nav: false
 
     <h2>Contact</h2>
     <p>Email: <a href="mailto:connor.fitzpatrick@ucalgary.ca">connor[dot]fitzpatrick[at]ucalgary.ca</a></p>
+
   </div>
 
 </div>
