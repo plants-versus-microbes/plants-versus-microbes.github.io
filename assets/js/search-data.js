@@ -461,8 +461,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-chalkbrood-disease-in-alfalfa-leaf-cutting-beesa",
-          title: 'chalkbrood disease in alfalfa leaf cutting beesa',
+            },},{id: "projects-chalkbrood-disease-in-alfalfa-leaf-cutting-bees",
+          title: 'chalkbrood disease in alfalfa leaf cutting bees',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ALCB/";
