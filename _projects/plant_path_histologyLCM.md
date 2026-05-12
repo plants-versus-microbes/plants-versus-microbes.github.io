@@ -5,5 +5,5 @@ description:
 img: assets/img/pisum_aphanomyces.jpg
 importance: 1
 category: pathology
-giscus_comments: true
+giscus_comments: false
 ---
