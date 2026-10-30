@@ -30,6 +30,8 @@ Email [Connor Fitzpatrick](mailto:connor.fitzpatrick@ucalgary.ca) with:
 - Your anticipated start date and availability.
 - A CV, if you have one.
 
+One small request: include **“roots and resilience”** in your email subject line. In your message, name one of our research projects and, in your own words, describe a specific question about it that you would be interested in exploring. A sentence or two is plenty.
+
 Opportunities depend on project fit, supervision capacity, and funding. An initial conversation helps establish what may be possible.
 
 [Explore our research]({{ '/research/' | relative_url }}) · [Meet the people]({{ '/people/' | relative_url }})
