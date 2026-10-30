@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bacteria-mediated rescue of plant iron uptake
-description: 
+description:
 img: assets/img/chl_rescue.jpg
 importance: 2
 category: plants microbes environment

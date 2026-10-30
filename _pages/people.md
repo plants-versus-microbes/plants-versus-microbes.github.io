@@ -2,147 +2,41 @@
 layout: page
 title: people
 permalink: /people/
+description: The people behind the science
 nav: true
 nav_order: 1
 ---
 
-## Principal Investigator
+Our work brings together interests in plant physiology, microbiology, ecology, and disease. Meet the people in the Plants vs Microbes lab.
 
-<div markdown="0">
-  <div class="people-entry">
-    <img src="/assets/img/people/connor_fitzpatrick_thumb.jpg" class="people-thumb" width="70" height="70" alt="Connor Fitzpatrick">
+<figure class="lab-group-photo">
+  <img src="{{ '/assets/img/lab_hike_lipsett.jpg' | relative_url }}" alt="Lab members on a mountain hike, with snowy peaks in the background." width="1200" height="900">
+  <figcaption>Beyond the bench: a lab hike in the mountains.</figcaption>
+</figure>
+
+{% for group in site.data.people %}
+<h2>{{ group.title | escape }}</h2>
+<div class="member-grid">
+  {% for member in group.members %}
+  <div class="member-card">
+    {% if member.image %}
+    <img class="member-photo" src="{{ member.image | relative_url }}" alt="{{ member.name | escape }}" width="80" height="80" loading="lazy">
+    {% else %}
+    <span class="member-initials" aria-hidden="true">{{ member.initials }}</span>
+    {% endif %}
     <div>
-      <strong><a href="/people/connor-fitzpatrick/">Connor Fitzpatrick</a></strong><br>
-      Associate Professor, University of Calgary
+      <h3>{% if member.url %}<a href="{{ member.url | relative_url }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}</h3>
+      <p>{{ member.role | escape }}</p>
     </div>
   </div>
+  {% endfor %}
 </div>
+{% endfor %}
 
----
+<div class="lab-callout" markdown="1">
+### Interested in joining us?
 
-## Post-docs
+Explore our research and get in touch to discuss potential opportunities.
 
-<div class="people-entry">
-  <img src="/assets/img/people/justin_nichol_thumb.jpg" class="people-thumb" width="70" height="70" alt="Justin Nichol">
-  <div>
-    <strong><a href="/people/justin-nichol/">Justin Nichol</a></strong><br>
-    Post-doctoral researcher
-  </div>
+[Joining the lab]({{ '/join/' | relative_url }})
 </div>
-
----
-
-## Graduate Students
-
-<div class="people-entry">
-  <img src="/assets/img/people/dammie_ajayi_thumb.jpg" class="people-thumb" width="70" height="70" alt="Oluwadamilola Elizabeth Ajayi">
-  <div>
-    <strong><a href="/people/dammie-ajayi/">Oluwadamilola Ajayi</a></strong><br>
-    PhD Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/elicia_pauls_thumb.jpg" class="people-thumb" width="70" height="70" alt="Elicia Pauls">
-  <div>
-    <strong><a href="/people/elicia-pauls/">Elicia Pauls</a></strong><br>
-    MSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/lizzy_webb_thumb.jpg" class="people-thumb" width="70" height="70" alt="Lizzy Webb">
-  <div>
-    <strong><a href="/people/lizzy-webb/">Lizzy Webb</a></strong><br>
-    MSc Student
-  </div>
-</div>
-
----
-
-## Undergraduate Students
-
-<div class="people-entry">
-  <img src="/assets/img/people/fancy_zhang_thumb.jpg" class="people-thumb" width="70" height="70" alt="Fancy Zhang">
-  <div>
-    <strong><a href="/people/fancy-zhang/">Fancy Zhang</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/ali_ibrahim_thumb.jpg" class="people-thumb" width="70" height="70" alt="Ali Ibrahim">
-  <div>
-    <strong><a href="/people/ali-ibrahim/">Ali Ibrahim</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/diya_laha_thumb.jpg" class="people-thumb" width="70" height="70" alt="Diya Laha">
-  <div>
-    <strong><a href="/people/diya-laha/">Diya Laha</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/samriddhi_pandey_thumb.jpg" class="people-thumb" width="70" height="70" alt="Samriddhi Pandey">
-  <div>
-    <strong><a href="/people/samriddhi-pandey/">Samriddhi Pandey</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/rohan_chand_thumb.jpg" class="people-thumb" width="70" height="70" alt="Rohan Chand">
-  <div>
-    <strong><a href="/people/rohan-chand/">Rohan Chand</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/amy_wanyoike_thumb.jpg" class="people-thumb" width="70" height="70" alt="Amy Wanyoike">
-  <div>
-    <strong><a href="/people/amy-wanyoike/">Amy Wanyoike</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/kayden_mooney_thumb.jpg" class="people-thumb" width="70" height="70" alt="Kayden Mooney">
-  <div>
-    <strong><a href="/people/kayden-mooney/">Kayden Mooney</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/linnea_fuertes_thumb.jpg" class="people-thumb" width="70" height="70" alt="Linnea Fuertes">
-  <div>
-    <strong><a href="/people/linnea-fuertes/">Linnea Fuertes</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
-<div class="people-entry">
-  <img src="/assets/img/people/beth_smith_thumb.jpg" class="people-thumb" width="70" height="70" alt="Beth Smith">
-  <div>
-    <strong><a href="/people/beth-smith/">Beth Smith</a></strong><br>
-    BSc Student
-  </div>
-</div>
-
----
-
-## Former Lab Members
-
-<div class="people-entry">
-  <img src="/assets/img/people/gabriel_firmino.jpg" class="people-thumb" width="70" height="70" alt="Gabriel Firmino">
-  <div>
-    Former visiting MSc Student
-  </div>
-</div>
-
----

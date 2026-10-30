@@ -1,0 +1,60 @@
+{
+  "drought-iron": {
+    "image": "/assets/img/LWA_Fe.jpg",
+    "alt": "Plants grown in a controlled experiment, showing variation in rosette size and leaf colour.",
+    "caption": "Plant growth and leaf colour in a controlled experiment."
+  },
+  "microbial-iron-rescue": {
+    "image": "/assets/img/chl_rescue.jpg",
+    "alt": "Rows of plants with contrasting growth and leaf colour.",
+    "caption": "Plant growth and leaf colour in a microbial-rescue experiment."
+  },
+  "climate-crop-nutrition": {
+    "image": "/assets/img/research/wheat-field.jpg",
+    "alt": "Green wheat heads growing in a field.",
+    "caption": "Wheat in the field. Context photograph for crop nutrition research.",
+    "author": "Hans",
+    "source": "https://commons.wikimedia.org/wiki/File:Wheat-8244.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original file; overview thumbnail displayed with a crop.",
+    "verified_on": "2026-10-25"
+  },
+  "aphanomyces": {
+    "image": "/assets/img/pisum_aphanomyces.jpg",
+    "alt": "Pea seedlings with contrasting shoot and root development.",
+    "caption": "Pea seedlings showing contrasting growth and root development."
+  },
+  "verticillium": {
+    "image": "/assets/img/research/canola-field.jpg",
+    "alt": "Yellow flowering canola in a Saskatchewan field beneath a blue sky.",
+    "caption": "Flowering canola in Saskatchewan. Context photograph, not a depiction of disease symptoms.",
+    "author": "Tungilik",
+    "source": "https://commons.wikimedia.org/wiki/File:Saskatchewan_Canola_Field.JPG",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original file; overview thumbnail displayed with a crop.",
+    "verified_on": "2026-10-25"
+  },
+  "cronartium-forecasting": {
+    "image": "/assets/img/tree.jpg",
+    "alt": "A pine tree with an open branching canopy beneath a blue sky.",
+    "caption": "Pine canopy from the lab image archive."
+  },
+  "white-pine-blister-rust": {
+    "image": "/assets/img/WPBR_1.jpg",
+    "alt": "Orange rust structures along a pine trunk and branches.",
+    "caption": "Pine rust in the field, from the lab image archive."
+  },
+  "chalkbrood": {
+    "image": "/assets/img/research/leafcutting-bee.jpg",
+    "alt": "An alfalfa leafcutting bee resting at a wood nesting hole.",
+    "caption": "Alfalfa leafcutting bee at a nesting hole. Context photograph, not a depiction of chalkbrood.",
+    "author": "Dirk Pons",
+    "source": "https://commons.wikimedia.org/wiki/File:Megachile_rotundata_(32016878731).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "changes": "Original file; overview thumbnail displayed with a crop.",
+    "verified_on": "2026-10-25"
+  }
+}

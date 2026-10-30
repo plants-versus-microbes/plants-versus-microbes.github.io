@@ -1,0 +1,16 @@
+{% assign media = site.data.research_media[include.key] %}
+<section class="research-entry">
+  <figure>
+    <a href="{{ include.url | relative_url }}" aria-label="Read about {{ include.title | escape }}">
+      <img src="{{ media.image | relative_url }}" alt="{{ media.alt | escape }}" loading="lazy" decoding="async" width="480" height="320">
+    </a>
+    <figcaption>{% include research_credit.liquid media=media thumbnail=true %}</figcaption>
+  </figure>
+  <div class="research-entry-copy">
+    <h3>
+      <a href="{{ include.url | relative_url }}">{{ include.title | escape }}</a>
+    </h3>
+    <p>{{ include.summary | escape }}</p>
+    <a class="research-read-more" href="{{ include.url | relative_url }}">Explore this research <span aria-hidden="true">→</span></a>
+  </div>
+</section>

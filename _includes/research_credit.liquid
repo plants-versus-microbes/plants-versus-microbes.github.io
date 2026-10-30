@@ -1,0 +1,7 @@
+{% if include.media.source %}
+  <span class="research-credit">
+    Photo: <a href="{{ include.media.source }}">{{ include.media.author | escape }}</a>,
+    <a href="{{ include.media.license_url }}">{{ include.media.license | escape }}</a>.
+    {% if include.thumbnail %}Displayed crop.{% endif %}
+  </span>
+{% endif %}

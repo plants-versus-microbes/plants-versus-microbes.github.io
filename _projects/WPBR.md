@@ -1,7 +1,7 @@
 ---
 layout: page
 title: White pine blister rust
-description: 
+description:
 img: assets/img/WPBR_1.jpg
 importance: 2
 category: pathology

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uncovering the anatomical, molecular, and genetic determinants of phytopathogen virulence
-description: 
+description:
 img: assets/img/pisum_aphanomyces.jpg
 importance: 1
 category: pathology

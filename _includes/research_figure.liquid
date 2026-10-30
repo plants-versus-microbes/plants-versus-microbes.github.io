@@ -1,0 +1,10 @@
+{% assign media = site.data.research_media[include.key] %}
+<figure class="research-figure">
+  <a href="{{ media.image | relative_url }}" aria-label="View full image: {{ media.alt | escape }}">
+    <img src="{{ media.image | relative_url }}" alt="{{ media.alt | escape }}" decoding="async">
+  </a>
+  <figcaption>
+    {{ media.caption | escape }}
+    {% include research_credit.liquid media=media %}
+  </figcaption>
+</figure>

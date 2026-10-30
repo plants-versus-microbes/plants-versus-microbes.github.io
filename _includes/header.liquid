@@ -1,6 +1,6 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if true %}
         <a class="navbar-brand font-weight-lighter" href="{{ '/' | relative_url }}">
@@ -48,14 +48,14 @@
 
           <!-- About -->
           {% comment %}
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
+            <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/' | relative_url }}">
+                {{- about_title }}
+                {% if page.permalink == '/' %}
+                  <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+            </li>
           {% endcomment %}
 
           <!-- Other pages -->

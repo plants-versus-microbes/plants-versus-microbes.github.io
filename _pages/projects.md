@@ -2,65 +2,29 @@
 layout: page
 title: research
 permalink: /research/
-description: ongoing work in the lab
+description: Plants, microbes, and a changing environment
 nav: true
 nav_order: 2
-display_categories: [plants microbes environment, pathology, work]
-horizontal: false
 ---
-Plants exist at the intersection of environmental stress, microbial communities, and pathogen pressure. Our research dissects how these forces interact—how drought and nutrient availability reshape plant–microbe interactions, and how pathogens exploit or are constrained by host physiology. By bridging plant physiology, microbiome biology, and plant pathology, we seek to uncover general principles governing plant health and disease.
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+Our lab studies how plants interact with their environments, microbial communities, and pathogens. We bring together plant physiology, microbiome biology, and plant pathology to understand the processes that shape plant health and disease, and to connect fundamental discoveries with agriculture, forestry, and conservation.
 
-{% else %}
+## Plants, microbes, and environment
 
-<!-- Display projects without categories -->
+{% include research_card.liquid key="drought-iron" title="Drought, iron, and plant resilience" url="/research/drought-iron/" summary="Drought changes more than water availability. It also changes how plants acquire essential nutrients." %}
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% include research_card.liquid key="microbial-iron-rescue" title="Microbial rescue of plant iron uptake" url="/research/microbial-iron-rescue/" summary="Root-associated microbes can change how plants cope with drought and nutrient stress." %}
 
-  <!-- Generate cards for each project -->
+{% include research_card.liquid key="climate-crop-nutrition" title="Climate risk and crop nutrition" url="/research/climate-crop-nutrition/" summary="Climate and soil conditions together shape the nutritional challenges facing crops." %}
 
-{% if page.horizontal %}
+## Plant pathology
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+{% include research_card.liquid key="aphanomyces" title="Aphanomyces root rot in pulses" url="/research/aphanomyces/" summary="Understanding root disease requires seeing where infection develops and where hosts stop it." %}
+
+{% include research_card.liquid key="verticillium" title="Verticillium stripe of canola" url="/research/verticillium/" summary="Plant infection biology can reveal new targets for resistance to Verticillium stripe." %}
+
+{% include research_card.liquid key="cronartium-forecasting" title="Rust disease forecasting in pine forests" url="/research/cronartium-forecasting/" summary="Disease risk depends on when spores and susceptible hosts meet." %}
+
+{% include research_card.liquid key="white-pine-blister-rust" title="White pine blister rust host range and virulence" url="/research/white-pine-blister-rust/" summary="Restoring threatened pines requires a better understanding of the pathogen that challenges them." %}
+
+{% include research_card.liquid key="chalkbrood" title="Chalkbrood disease in alfalfa leafcutting bees" url="/research/chalkbrood/" summary="Understanding fungal disease in developing bees to support pollinator health and alfalfa seed production." %}

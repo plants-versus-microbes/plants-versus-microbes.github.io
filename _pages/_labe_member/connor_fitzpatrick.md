@@ -7,7 +7,8 @@ nav: false
 
 <img src="/assets/img/connor-fitzpatrick.jpg" width="220">
 
-## Connor Fitzpatrick  
+## Connor Fitzpatrick
+
 Associate Professor, University of Calgary
 
 Profile text here.

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Principal Investigator",
+    "members": [
+      {
+        "name": "Connor Fitzpatrick",
+        "role": "Assistant Professor, University of Calgary",
+        "image": "/assets/img/people/connor_fitzpatrick_thumb.jpg",
+        "url": "/people/connor-fitzpatrick/",
+        "initials": "CF"
+      }
+    ]
+  },
+  {
+    "title": "Postdoctoral researchers",
+    "members": [
+      {
+        "name": "Justin Nichol",
+        "role": "Post-doctoral researcher",
+        "image": null,
+        "url": null,
+        "initials": "JN"
+      }
+    ]
+  },
+  {
+    "title": "Graduate Students",
+    "members": [
+      {
+        "name": "Oluwadamilola Ajayi",
+        "role": "PhD Student",
+        "image": null,
+        "url": null,
+        "initials": "OA"
+      },
+      {
+        "name": "Elicia Pauls",
+        "role": "MSc Student",
+        "image": null,
+        "url": null,
+        "initials": "EP"
+      },
+      {
+        "name": "Lizzy Webb",
+        "role": "MSc Student",
+        "image": null,
+        "url": null,
+        "initials": "LW"
+      },
+      {
+        "name": "Ali Ibrahim",
+        "role": "MSc Student",
+        "image": null,
+        "url": null,
+        "initials": "AI"
+      },
+      {
+        "name": "Johnathan Shykula-Kollar",
+        "role": "MSc Student",
+        "image": null,
+        "url": null,
+        "initials": "JS"
+      }
+    ]
+  },
+  {
+    "title": "Undergraduate Students",
+    "members": [
+      {
+        "name": "Fancy Zhang",
+        "role": "BSc Student",
+        "image": null,
+        "url": null,
+        "initials": "FZ"
+      },
+      {
+        "name": "Diya Laha",
+        "role": "BSc Student",
+        "image": "/assets/img/people/diya_laha_thumb.jpg",
+        "url": null,
+        "initials": "DL"
+      },
+      {
+        "name": "Samriddhi Pandey",
+        "role": "BSc Student",
+        "image": "/assets/img/people/samriddhi_pandey_thumb.jpg",
+        "url": null,
+        "initials": "SP"
+      },
+      {
+        "name": "Rohan Chand",
+        "role": "BSc Student",
+        "image": "/assets/img/people/rohan_chand_thumb.jpg",
+        "url": null,
+        "initials": "RC"
+      },
+      {
+        "name": "Amy Wanyoike",
+        "role": "BSc Student",
+        "image": "/assets/img/people/amy_wanyoike_thumb.jpg",
+        "url": null,
+        "initials": "AW"
+      },
+      {
+        "name": "Kayden Mooney",
+        "role": "BSc Student",
+        "image": null,
+        "url": null,
+        "initials": "KM"
+      },
+      {
+        "name": "Linnea Fuertes",
+        "role": "BSc Student",
+        "image": null,
+        "url": null,
+        "initials": "LF"
+      },
+      {
+        "name": "Beth Smith",
+        "role": "BSc Student",
+        "image": null,
+        "url": null,
+        "initials": "BS"
+      },
+      {
+        "name": "Aryan Rangan",
+        "role": "BSc Student",
+        "image": null,
+        "url": null,
+        "initials": "AR"
+      }
+    ]
+  },
+  {
+    "title": "Former Lab Members",
+    "members": [
+      {
+        "name": "Gabriel Firmino",
+        "role": "Former visiting MSc student",
+        "image": null,
+        "url": null,
+        "initials": "GF"
+      }
+    ]
+  }
+]
